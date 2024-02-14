@@ -1,7 +1,11 @@
 import { FaShoppingBag } from "react-icons/fa";
+import treading1 from "../images/trending-01.jpg"
+import treading2 from "../images/trending-02.jpg"
+import treading3 from "../images/trending-03.jpg"
+import treading4 from "../images/trending-04.jpg"
 const TrendingInfo = [
   {
-    img: './images/trending-01.jpg',
+    img: (treading1),
     h4: "Action",
     h3: "Assasin Creed",
     icon: <FaShoppingBag />,
@@ -11,7 +15,7 @@ const TrendingInfo = [
     category:"advanced",
   },
   {
-    img: './images/trending-02.jpg',
+    img: (treading2),
     h4: "Action",
     h3: "Assasin Creed",
     icon: <FaShoppingBag />,
@@ -20,7 +24,7 @@ const TrendingInfo = [
     category:"advanced",
   },
   {
-    img: './images/trending-03.jpg',
+    img: (treading3),
     h4: "Action",
     h3: "Assasin Creed",
     icon: <FaShoppingBag />,
@@ -31,7 +35,7 @@ const TrendingInfo = [
 
   },  
   {
-    img: './images/trending-04.jpg',
+    img: (treading4),
     h4: "Action",
     h3: "Assasin Creed",
     icon: <FaShoppingBag />,

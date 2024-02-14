@@ -1,8 +1,9 @@
-
-const ProductsDetails = (prop) => {
+import {Heading,Modern} from "../components/index"
+const ProductsDetails = () => {
   return (
     <>
-      {prop.children}
+      <Heading title="MODERN WARFARE® II" text="Products Details"/>
+          <Modern/>
     </>
   )
 }

@@ -1,5 +1,6 @@
 /* eslint-disable no-undef */
 import Button from '../components/Button';
+import bannerImg from '../images/banner-image.jpg';
 const Hero = () => {
   return (
     <>
@@ -21,7 +22,7 @@ const Hero = () => {
       </div>
 
       <picture className="relative">
-        <img src="./images/banner-image.jpg" alt="banner-image" className="rounded-3xl w-full md:w-[400px] " />
+        <img src={bannerImg} alt="banner-image" className="rounded-3xl w-full md:w-[400px] " />
         <span className="absolute top-4 right-2 bg-bsBlue py-1 px-3 rounded-full font-extrabold text-lg ">$22</span>
         <span className="absolute -bottom-6 -left-8 bg-lightRed w-24 h-24 flex justify-center items-center rounded-full font-extrabold text-3xl">-40%</span>
       </picture>

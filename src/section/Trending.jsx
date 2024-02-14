@@ -1,10 +1,11 @@
-
-const Trending = (prop) => {
+import {Head,TrendingCards} from '../components/index';
+const Trending = () => {
   return (
     <>
-    <section className="max-w-[1200px] mx-auto mt-16">
-      {prop.children}
-    </section>
+      <section className="max-w-[1200px] mx-auto mt-16">
+        <Head text="trending" title="Trending Games"/>
+        <TrendingCards/>
+      </section>
     </>
   )
 }

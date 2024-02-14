@@ -2,13 +2,14 @@
 import { FaBagShopping } from "react-icons/fa6";
 import {Categories}  from "../section";
 import {Head}  from "../components";
+import singleGame from '../images/single-game.jpg'
 const Modern = () => {
   return (
     <>
       <section className="max-w-[1200px] mx-auto p-4">
         <div className="flex flex-col md:flex md:flex-row justify-center  mb-10 gap-8">
           <picture className="flex-0 md:flex-1">
-            <img src="./images/single-game.jpg" alt="game" className=" w-full md:w-full" />
+            <img src={singleGame} alt="game" className=" w-full md:w-full" />
           </picture >
           <div className="flex-0 md:flex-1">
             <h2 className="text-3xl font-bold">Call of Duty®: Modern Warfare® II</h2>

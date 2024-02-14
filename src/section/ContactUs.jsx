@@ -1,7 +1,10 @@
-const ContactUs = (prop) => {
+import {ContactForm} from "../section/index"
+import {Heading} from "../components/index"
+const ContactUs = () => {
   return (
     <>
-    {prop.children}
+      <Heading title="Contact Us" text="Contact Us"/>
+      <ContactForm/>
     </>
   )
 }
