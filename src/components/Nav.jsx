@@ -35,7 +35,7 @@ const Nav = () => {
     <div className={` fixed w-full px-4 ${scrollY > 200 ? 'bg-bsBlue' : 'bg-transparent'} rounded-bl-[50px] rounded-br-[50px] transition-all duration-200 z-10`}>
         <nav className="mx-auto max-w-[1200px] flex items-center justify-between py-4">
         <Link to="/" >
-          <img src='./src/images/logo.png' alt="logo" className="w-28 md:w-40"/>
+          <img src='./dist/images/logo.png' alt="logo" className="w-28 md:w-40"/>
         </Link>
       <div className="flex items-center gap-2">
       <ul className={` absolute md:static flex flex-col md:flex md:flex-row left-1/2 gap-4 md:gap-10 -translate-x-1/2 md:translate-x-0  bg-white md:bg-transparent text-black md:text-white text-center md:items-center mt-8 md:mt-0 rounded-b-3xl w-[500px] md:w-full [&>*:not(:last-child)]:border-b md:[&>*:not(:last-child)]:border-none [&>*:nth-child(5)]:btn [&>*:nth(5)]:ml-6  ${open ? "top-20":"top-[-250px]"}`}>
