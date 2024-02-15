@@ -3,7 +3,7 @@ const ProductsDetails = () => {
   return (
     <>
       <Heading title="MODERN WARFARE® II" text="Products Details"/>
-          <Modern/>
+      <Modern/>
     </>
   )
 }

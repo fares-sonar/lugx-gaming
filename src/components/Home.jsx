@@ -3,7 +3,7 @@ import {Boxes,Trending,TopGame,Categories,Subscribe} from '../section/index';
 const Home = () => {
   return (
     <>
-      <Container/>
+      <Container />
       <Boxes />
       <Trending/>
       <TopGame/>
