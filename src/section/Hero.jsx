@@ -1,5 +1,5 @@
 import Button from '../components/Button';
-import bannerImg from '../images/banner-image.jpg';
+import bannerImg from '/src/images/banner-image.jpg';
 const Hero = () => {
   return (
     <>

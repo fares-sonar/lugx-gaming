@@ -4,7 +4,7 @@ import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useState } from "react";
 import Button from "../components/Button";
 import { Link } from "react-router-dom";
-import logo from "../images/logo.png"
+import logo from "/src/images/logo.png"
 
 
 const Nav = () => {
