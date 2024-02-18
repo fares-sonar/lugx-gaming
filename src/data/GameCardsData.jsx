@@ -1,10 +1,10 @@
 import Btn from "../components/Btn"
-import topGame1 from "../images/top-game-01.jpg"
-import topGame2 from "../images/top-game-02.jpg"
-import topGame3 from "../images/top-game-03.jpg"
-import topGame4 from "../images/top-game-04.jpg"
-import topGame5 from "../images/top-game-05.jpg"
-import topGame6 from "../images/top-game-06.jpg"
+import topGame1 from "/src/images/top-game-01.jpg"
+import topGame2 from "/src/images/top-game-02.jpg"
+import topGame3 from "/src/images/top-game-03.jpg"
+import topGame4 from "/src/images/top-game-04.jpg"
+import topGame5 from "/src/images/top-game-05.jpg"
+import topGame6 from "/src/images/top-game-06.jpg"
 const cardInfo = [
   {img: (topGame1), span:'Adventure', h3:'Assasin Creed', link:<Btn text="Explore"/>, id: '5'},
   {img: (topGame2), span:'Adventure', h3:'Assasin Creed', link:<Btn text="Explore"/>, id: '6'},

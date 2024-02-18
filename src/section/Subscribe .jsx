@@ -3,7 +3,7 @@ import Button from '../components/Button'
 const Subscribe  = () => {
   return (
     <>
-      <section className=' relative max-w-[1200px] my-28 mx-auto justify-between items-center lg:items-end gap-4 p-4 flex flex-col md:flex md:flex-row flex-wrap before:content-[url("./images/cta-bg.jpg")] before:absolute before:-z-10 before:left-[25%] before:-top-[70px]   before:rounded-[25px] before:overflow-hidden before:hidden lg:before:block '>
+      <section className=' relative max-w-[1200px] my-28 mx-auto justify-between items-center lg:items-end gap-4 p-4 flex flex-col md:flex md:flex-row flex-wrap before:content-[url("/src/images/cta-bg.jpg")] before:absolute before:-z-10 before:left-[25%] before:-top-[70px]   before:rounded-[25px] before:overflow-hidden before:hidden lg:before:block '>
         <div className='bg-gray-100 rounded-3xl p-6 md:p-20 w-full md:w-fit '>
           <div className='space-y-8 '>
             <h3 className='text-lightRed uppercase font-bold'>our shop</h3>

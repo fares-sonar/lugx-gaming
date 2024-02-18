@@ -1,7 +1,7 @@
-import feature1 from '../images/featured-01.png'
-import feature2 from '../images/featured-02.png'
-import feature3 from '../images/featured-03.png'
-import feature4 from '../images/featured-04.png'
+import feature1 from '/src/images/featured-01.png'
+import feature2 from '/src/images/featured-02.png'
+import feature3 from '/src/images/featured-03.png'
+import feature4 from '/src/images/featured-04.png'
 const BoxInfo = [
   {img: (feature1),h3:'free storage'},
   {img: (feature2),h3:'user more'},

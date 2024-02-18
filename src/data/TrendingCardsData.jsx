@@ -1,8 +1,8 @@
 import { FaShoppingBag } from "react-icons/fa";
-import treading1 from "../images/trending-01.jpg"
-import treading2 from "../images/trending-02.jpg"
-import treading3 from "../images/trending-03.jpg"
-import treading4 from "../images/trending-04.jpg"
+import treading1 from "/src/images/trending-01.jpg"
+import treading2 from "/src/images/trending-02.jpg"
+import treading3 from "/src/images/trending-03.jpg"
+import treading4 from "/src/images/trending-04.jpg"
 const TrendingInfo = [
   {
     img: (treading1),
