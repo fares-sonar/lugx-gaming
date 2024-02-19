@@ -1,10 +1,10 @@
 import {Nav,Footer, Home} from './components/index';
 import {OurShop, ProductsDetails, ContactUs} from './section/index';
-import { BrowserRouter as Router, Route, Routes, Outlet} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 const  App = () =>{
   return (
     <>
-      <Router  >
+      <Router basename='/lugx-gaming' >
         <Nav/>
         <Routes>
           
@@ -14,7 +14,6 @@ const  App = () =>{
           <Route path='/contact-us' element={<ContactUs />}/>
         </Routes>
         <Footer/> 
-        <Outlet/>
       </Router>
     </>
   )
